@@ -49,7 +49,7 @@ export class GameScene extends Phaser.Scene {
 
   update(): void {
     const seconds = this.gameDuration / 1000 * this.timedEvent.getProgress()
-    this.countdownTxt.setText(`seconds ${seconds.toFixed(2)}`);
+    this.countdownTxt.setText(`seconds: ${seconds.toFixed(2)}`);
     this.updateStatsText()
 
   }
