@@ -45,7 +45,7 @@ const config: webpack.Configuration = {
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src/index.html'),
-      title: 'Test VM',
+      title: 'Phaser Clicker',
       inject: 'head'
     })
   ]
